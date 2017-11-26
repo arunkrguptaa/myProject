@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({ bte: 'fuck' });
+    res.send({ stop: 'Mother fuckker' });
 });
 
 const PORT = process.env.PORT || 5000;
